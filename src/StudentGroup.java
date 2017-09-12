@@ -26,20 +26,19 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public Student[] getStudents() {
 		// Add your implementation here
-		System.out.println("hello");
-		
 		return null;
 	}
 
 	@Override
 	public void setStudents(Student[] students) {
-		this.students=students;
+		//this.students=students;
 	}
 
 	@Override
 	public Student getStudent(int index) {
 		// Add your implementation here
-		return students[index];
+		//return students[index];
+		return null;
 	}
 
 	@Override
@@ -95,6 +94,7 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void bubbleSort() {
 		// Add your implementation here
+		
 	}
 
 	@Override
