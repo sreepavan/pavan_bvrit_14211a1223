@@ -34,9 +34,6 @@ public class StudentGroup implements StudentArrayOperation {
 	@Override
 	public void setStudents(Student[] students) {
 		this.students=students;
-		System.out.println(this.students[0].getId());
-		System.out.println(this.students[0].getBirthDate());
-		
 	}
 
 	@Override
